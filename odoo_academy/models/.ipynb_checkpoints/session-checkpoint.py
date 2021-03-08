@@ -30,6 +30,17 @@ class Session(models.Model):
                           inverse="_inverse_end_date",#En caso de que alguien quiera establecer la fecha de finalización en lugar de la duración.
                           store=True)#Para que se almacene en base de datos.
     
+    state = fields.Selection(string="States",
+                            selection=[("draft", "Draft"),
+                                      ("open", "Open"),
+                                      ("done", "Done"),
+                                      ("canceled", "Canceled")],
+                            default="draft",
+                            required=True)
+    
+    total_price = fields.Float(string="Toal Price",
+                              related="course_id.total_price")
+    
     @api.depends("start_date", "duration")
     def _compute_end_date(self):
         for record in self:
