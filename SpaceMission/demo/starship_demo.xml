@@ -4,8 +4,8 @@
         <record model="space.ship" id="spaceship1">
             <field name="name">Starship Mk1</field>
             <field name="description">primer prototipo</field>
-            <field name="fuel_leo">10000L</field>
-            <field name="fuel_return">5000L</field>
+            <field name="fuel_leo">10000</field>
+            <field name="fuel_return">5000</field>
             <field name="diameter">cambiar</field>
             <field name="length">cambiar</field>
             <field name="mass">cambiar</field>
@@ -21,8 +21,8 @@
         <record model="space.ship" id="spaceship2">
             <field name="name">Starship Sn2</field>
             <field name="description">segundo prototipo</field>
-            <field name="fuel_leo">15000L</field>
-            <field name="fuel_return">5000L</field>
+            <field name="fuel_leo">15000</field>
+            <field name="fuel_return">5000</field>
             <field name="diameter">cambiar</field>
             <field name="length">cambiar</field>
             <field name="mass">cambiar</field>
@@ -38,8 +38,8 @@
         <record model="space.ship" id="spaceship3">
             <field name="name">Starship Sn3</field>
             <field name="description">tercer prototipo</field>
-            <field name="fuel_leo">20000L</field>
-            <field name="fuel_return">5000L</field>
+            <field name="fuel_leo">20000</field>
+            <field name="fuel_return">5000</field>
             <field name="diameter">cambiar</field>
             <field name="length">cambiar</field>
             <field name="mass">cambiar</field>
