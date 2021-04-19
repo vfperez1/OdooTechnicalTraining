@@ -1,54 +1,52 @@
-<?xm version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
+
 <odoo>
     <data noupdate="1">
-        <record model="space.ship" id="spaceship1">
+        <record model="space.ship" id="starship_mk1">
             <field name="name">Starship Mk1</field>
             <field name="description">primer prototipo</field>
             <field name="fuel_leo">10000</field>
             <field name="fuel_return">5000</field>
-            <field name="diameter">cambiar</field>
-            <field name="length">cambiar</field>
-            <field name="mass">cambiar</field>
-            <field name="engines">cambiar</field>
-            <field name="push">cambiar</field>
-            <field name="propellant_capacity">cambiar</field>
-            <field name="weight">cambiar</field>
-            <field name="pasajeros">cambiar</field>
-            <field name="prototipos">cambiar</field>
+            <field name="diameter">1000</field>
+            <field name="length">1000</field>
+            <field name="mass">1000</field>
+            <field name="engines">1000</field>
+            <field name="push">1000</field>
+            <field name="propellant_capacity">1000</field>
+            <field name="weight">1000</field>
+            <field name="pasajeros">4</field>
             <field name="active"></field>
             <field name="prototipos">starship_mk1</field>
         </record>
-        <record model="space.ship" id="spaceship2">
+        <record model="space.ship" id="starship_sn2">
             <field name="name">Starship Sn2</field>
             <field name="description">segundo prototipo</field>
             <field name="fuel_leo">15000</field>
             <field name="fuel_return">5000</field>
-            <field name="diameter">cambiar</field>
-            <field name="length">cambiar</field>
-            <field name="mass">cambiar</field>
-            <field name="engines">cambiar</field>
-            <field name="push">cambiar</field>
-            <field name="propellant_capacity">cambiar</field>
-            <field name="weight">cambiar</field>
-            <field name="pasajeros">cambiar</field>
-            <field name="prototipos">cambiar</field>
+            <field name="diameter">1000</field>
+            <field name="length">1000</field>
+            <field name="mass">1000</field>
+            <field name="engines">1000</field>
+            <field name="push">1000</field>
+            <field name="propellant_capacity">1000</field>
+            <field name="weight">1000</field>
+            <field name="pasajeros">4</field>
             <field name="active"></field>
             <field name="prototipos">starship_sn2</field>
         </record>
-        <record model="space.ship" id="spaceship3">
+        <record model="space.ship" id="starship_sn3">
             <field name="name">Starship Sn3</field>
             <field name="description">tercer prototipo</field>
             <field name="fuel_leo">20000</field>
             <field name="fuel_return">5000</field>
-            <field name="diameter">cambiar</field>
-            <field name="length">cambiar</field>
-            <field name="mass">cambiar</field>
-            <field name="engines">cambiar</field>
-            <field name="push">cambiar</field>
-            <field name="propellant_capacity">cambiar</field>
-            <field name="weight">cambiar</field>
-            <field name="pasajeros">cambiar</field>
-            <field name="prototipos">cambiar</field>
+            <field name="diameter">1000</field>
+            <field name="length">1000</field>
+            <field name="mass">1000</field>
+            <field name="engines">1000</field>
+            <field name="push">1000</field>
+            <field name="propellant_capacity">1000</field>
+            <field name="weight">1000</field>
+            <field name="pasajeros">4</field>
             <field name="active"></field>
             <field name="prototipos">starship_sn3</field>
         </record>
