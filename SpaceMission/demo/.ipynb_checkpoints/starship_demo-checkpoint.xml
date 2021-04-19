@@ -1,0 +1,56 @@
+<?xm version="1.0" encoding="utf-8"?>
+<odoo>
+    <data noupdate="1">
+        <record model="space.ship" id="spaceship1">
+            <field name="name">Starship Mk1</field>
+            <field name="description">primer prototipo</field>
+            <field name="fuel_leo">10000L</field>
+            <field name="fuel_return">5000L</field>
+            <field name="diameter">cambiar</field>
+            <field name="length">cambiar</field>
+            <field name="mass">cambiar</field>
+            <field name="engines">cambiar</field>
+            <field name="push">cambiar</field>
+            <field name="propellant_capacity">cambiar</field>
+            <field name="weight">cambiar</field>
+            <field name="pasajeros">cambiar</field>
+            <field name="prototipos">cambiar</field>
+            <field name="active"></field>
+            <field name="prototipos">starship_mk1</field>
+        </record>
+        <record model="space.ship" id="spaceship2">
+            <field name="name">Starship Sn2</field>
+            <field name="description">segundo prototipo</field>
+            <field name="fuel_leo">15000L</field>
+            <field name="fuel_return">5000L</field>
+            <field name="diameter">cambiar</field>
+            <field name="length">cambiar</field>
+            <field name="mass">cambiar</field>
+            <field name="engines">cambiar</field>
+            <field name="push">cambiar</field>
+            <field name="propellant_capacity">cambiar</field>
+            <field name="weight">cambiar</field>
+            <field name="pasajeros">cambiar</field>
+            <field name="prototipos">cambiar</field>
+            <field name="active"></field>
+            <field name="prototipos">starship_sn2</field>
+        </record>
+        <record model="space.ship" id="spaceship3">
+            <field name="name">Starship Sn3</field>
+            <field name="description">tercer prototipo</field>
+            <field name="fuel_leo">20000L</field>
+            <field name="fuel_return">5000L</field>
+            <field name="diameter">cambiar</field>
+            <field name="length">cambiar</field>
+            <field name="mass">cambiar</field>
+            <field name="engines">cambiar</field>
+            <field name="push">cambiar</field>
+            <field name="propellant_capacity">cambiar</field>
+            <field name="weight">cambiar</field>
+            <field name="pasajeros">cambiar</field>
+            <field name="prototipos">cambiar</field>
+            <field name="active"></field>
+            <field name="prototipos">starship_sn3</field>
+        </record>
+    </data>       
+</odoo>

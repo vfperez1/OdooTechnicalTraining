@@ -19,6 +19,7 @@ class Spaceship(models.Model):
     push = fields.Integer(string="push", required=True) # Empuje
     propellant_capacity = fields.Integer(string="propellant_capacity", required=True) # Capacidad de propulsor
     weight = fields.Integer(string="weight", required=True)
+    pasajeros = fields.Integer(string="weight", required=True)
     
     prototipos = fields.Selection(string="prototipos",
                                  selection=[("starship_mk1", "Starship Mk1" ),

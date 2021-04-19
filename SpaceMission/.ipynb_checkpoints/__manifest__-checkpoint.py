@@ -6,10 +6,7 @@
     "summary": """Academy app to manage Training""",
     
     "description": """
-        Academy Module to manage Training:
-         -Courses
-         -Sessions
-         -Attendees
+        Module to practice the mission to mars
     """,
     
     "author": "vfperez",
@@ -22,11 +19,11 @@
     "depends": ["base"],
     
     "data": [
-        
+        "views/starship.xml",
     ],
     
     "demo": [
-        
+        "demo/starship_demo",
     ],
     
 }
