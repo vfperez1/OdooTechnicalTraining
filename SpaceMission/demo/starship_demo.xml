@@ -3,7 +3,7 @@
     <data noupdate="1">
         <record model="space.ship" id="starship_mk1">
             <field name="name">Starship Mk1</field>
-            <field name="description">primer prototipo</field>
+            <field name="description">Starship Mk1 fue el primer prototipo de Starship</field>
             <field name="fuel_leo">10000</field>
             <field name="fuel_return">5000</field>
             <field name="diameter">1000</field>
@@ -19,7 +19,7 @@
         </record>
         <record model="space.ship" id="starship_sn2">
             <field name="name">Starship Sn2</field>
-            <field name="description">segundo prototipo</field>
+            <field name="description">Tanque de prueba. La Starship SN2 planeó originalmente para ser una sección de tanque Starship a gran escala que llevaría a cabo un salto a 150 metros. Después de la pérdida de Starship SN1, los planes para el SN2 cambiaron a ser sólo un tanque de prueba a menor escala. Esto permitió a SpaceX verificar rápidamente que los cambios de diseño en la sección de empuje funcionaron según lo previsto.</field>
             <field name="fuel_leo">15000</field>
             <field name="fuel_return">5000</field>
             <field name="diameter">1000</field>
@@ -35,7 +35,7 @@
         </record>
         <record model="space.ship" id="starship_sn3">
             <field name="name">Starship Sn3</field>
-            <field name="description">tercer prototipo</field>
+            <field name="description">La Starship SN3 se perdió durante una prueba criogénica. Durante la prueba, la falta de presión en el tanque LOX hizo que colapsara bajo el peso de un tanque de metano totalmente cargado. La anomalía fue culpada a un error de la configuración de la prueba.</field>
             <field name="fuel_leo">20000</field>
             <field name="fuel_return">5000</field>
             <field name="diameter">1000</field>
@@ -48,6 +48,22 @@
             <field name="pasajeros">4</field>
             <field name="active"></field>
             <field name="prototipos">starship_sn3</field>
+        </record>
+        <record model="space.ship" id="starship_sn3">
+            <field name="name">Starship Sn4</field>
+            <field name="description">La Starship SN3 se perdió durante una prueba criogénica. Durante la prueba, la falta de presión en el tanque LOX hizo que colapsara bajo el peso de un tanque de metano totalmente cargado. La anomalía fue culpada a un error de la configuración de la prueba.</field>
+            <field name="fuel_leo">20000</field>
+            <field name="fuel_return">5000</field>
+            <field name="diameter">1000</field>
+            <field name="length">1000</field>
+            <field name="mass">1000</field>
+            <field name="engines">1000</field>
+            <field name="push">1000</field>
+            <field name="propellant_capacity">1000</field>
+            <field name="weight">1000</field>
+            <field name="pasajeros">4</field>
+            <field name="active"></field>
+            <field name="prototipos">starship_sn4</field>
         </record>
     </data>       
 </odoo>
