@@ -17,7 +17,7 @@
                             </group>
                         </group>
                         <notebook>
-                            <page string="Description1">
+                            <page string="Description">
                                 <field name="description"/>
                             </page>
                         </notebook>

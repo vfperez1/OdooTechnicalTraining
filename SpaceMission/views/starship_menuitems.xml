@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <data>
+        <record model="ir.actions.act_window" id="spaceship_list_action">
+            <field name="name">Prototipos Naves Espaciales</field>
+            <field name="res_model">space.ship</field>
+            <field name="view_mode">tree,form</field>
+            <field name="help" type="html">
+                <p class="o_view_nocontent_smiling_face">
+                    Cambiar cambiar cambiar
+                </p>
+            </field>
+        </record>
+        
+        <menuitem name="SpaceShip"
+                  id="menu_spaceship"
+                  sequence="1"/>
+        
+        <menuitem id="menu_spaceship_sub" name="SpaceShip" parent="menu_spaceship" sequence="2"/>
+        
+        <menuitem id="menu_spaceship_starship" name="starship" parent="menu_spaceship" sequence="3"
+                  action="spaceship_list_action"/>
+    </data>
+</odoo>

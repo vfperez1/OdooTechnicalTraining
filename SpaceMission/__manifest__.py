@@ -22,6 +22,7 @@
         "security/spaceship_security.xml",
         "security/ir.model.access.csv",
         "views/starship.xml",
+        "views/starship_menuitems.xml",
         
     ],
     
