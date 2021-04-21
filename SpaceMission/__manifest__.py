@@ -16,14 +16,14 @@
     "category": "Training",
     "version": "0.1",
     
-    "depends": ["base"],
+    "depends": ["contacts"],
     
     "data": [
         "security/spaceship_security.xml",
         "security/ir.model.access.csv",
         "views/starship.xml",
         "views/starship_menuitems.xml",
-        
+        "views/contacts_views_inherit.xml",
     ],
     
     "demo": [
