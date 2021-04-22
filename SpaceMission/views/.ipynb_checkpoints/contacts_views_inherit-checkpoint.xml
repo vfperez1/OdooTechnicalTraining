@@ -7,7 +7,12 @@
             <field name="inherit_id" ref="base.view_partner_form"/>
             <field name="arch" type="xml">
                 <xpath expr="//page[@name='internal_notes']" position="after">
-                    <page name="conceptos" string="Conceptos"/>
+                    <page name="x_conceptos" string="Conceptos">
+                        <field name="x_concepto_1" placeholder="Escribe concepto 1"/>
+                    </page>
+                </xpath>
+                <xpath expr="//form/sheet/group/group/field[@name='user_ids']" position="before">
+                    <field name="x_telefono_2" string="Phone 2"/>
                 </xpath>
             </field>
         </record>
